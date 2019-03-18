@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-18T07:48:30.000Z</updated>
+  <updated>2019-03-18T09:01:41.241Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,25 +17,25 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>SWAD1</title>
-    <link href="http://yoursite.com/2019/03/08/title1/"/>
-    <id>http://yoursite.com/2019/03/08/title1/</id>
-    <published>2019-03-08T08:52:00.000Z</published>
-    <updated>2019-03-18T07:48:30.000Z</updated>
+    <title>系统分析与设计作业一</title>
+    <link href="http://yoursite.com/2019/03/18/SWSAD-1/"/>
+    <id>http://yoursite.com/2019/03/18/SWSAD-1/</id>
+    <published>2019-03-18T08:04:09.000Z</published>
+    <updated>2019-03-18T09:01:41.241Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="系统分析与设计作业一"><a href="#系统分析与设计作业一" class="headerlink" title="系统分析与设计作业一"></a>系统分析与设计作业一</h1><h2 id="简答题"><a href="#简答题" class="headerlink" title="简答题"></a>简答题</h2><h3 id="软件工程的定义"><a href="#软件工程的定义" class="headerlink" title="软件工程的定义"></a>软件工程的定义</h3><h3 id="软件危机"><a href="#软件危机" class="headerlink" title="软件危机"></a>软件危机</h3>]]></content>
+    <content type="html"><![CDATA[<h1 id="简答题"><a href="#简答题" class="headerlink" title="简答题"></a>简答题</h1><h2 id="软件工程的定义"><a href="#软件工程的定义" class="headerlink" title="软件工程的定义"></a>软件工程的定义</h2><blockquote><p>Software engineering is “(1) the application of a systematic, disciplined, quantifiable approach to the development, operation, and maintenance of software, that is, the application of engineering to software,” and “(2) the study of approaches as in (1).” –– IEEE Standard 610.12</p></blockquote><p>软件工程是将系统的、规范的、可度量的方法应用到软件的开发、运行和维护中的一种工程方法，同时也包括了与之相关的研究。</p><h2 id="解释导致software-crisis-本质原因、表现，述说克服软件危机的方法"><a href="#解释导致software-crisis-本质原因、表现，述说克服软件危机的方法" class="headerlink" title="解释导致software crisis 本质原因、表现，述说克服软件危机的方法"></a>解释导致software crisis 本质原因、表现，述说克服软件危机的方法</h2><h3 id="本质原因"><a href="#本质原因" class="headerlink" title="本质原因"></a>本质原因</h3><p>计算机硬件性能的提高、软件复杂度的增加与软件开发能力之间存在矛盾，导致对于复杂软件的需求无法得到满足。</p><h3 id="表现"><a href="#表现" class="headerlink" title="表现"></a>表现</h3><ul><li>项目运行超过预算</li><li>项目运行超时</li><li>软件的使用效率较低</li><li>软件质量过差</li><li>软件不能满足用户需求</li><li>项目无法管理，代码难以维护</li><li>软件无法交付</li></ul><h3 id="克服软件危机的方法"><a href="#克服软件危机的方法" class="headerlink" title="克服软件危机的方法"></a>克服软件危机的方法</h3><p>应用更科学、高效的软件工程管理方法去指导软件开发的过程，提高效率并降低成本，改善产品质量。</p><h2 id="软件生命周期"><a href="#软件生命周期" class="headerlink" title="软件生命周期"></a>软件生命周期</h2><p>软件生命周期是指软件的产生知道成熟的全部过程。</p><h2 id="SWEBoK-的-15-个知识域（An-Overview-of-the-SWEBOK-Guide-请中文翻译其名称与简短说明）"><a href="#SWEBoK-的-15-个知识域（An-Overview-of-the-SWEBOK-Guide-请中文翻译其名称与简短说明）" class="headerlink" title="SWEBoK 的 15 个知识域（An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）"></a>SWEBoK 的 15 个知识域（An Overview of the SWEBOK Guide 请中文翻译其名称与简短说明）</h2><table><thead><tr><th>英文名称</th><th>中文名称</th><th>解释</th></tr></thead><tbody><tr><td>Software Requirements</td><td>软件需求</td><td>软件需求关注软件需求的启发，协商，分析，规范和验证。</td></tr><tr><td>Software Design</td><td>软件设计</td><td>软件设计涵盖了设计过程和最终产品。</td></tr><tr><td>Software Construction</td><td>软件构造</td><td>软件构造包括与满足其要求和设计约束的软件程序开发相关的主题</td></tr><tr><td>Software Testing</td><td>软件测试</td><td>软件测试包括软件测试的基础知识；测试技术；人机界面测试与评估；与测试有关的措施</td></tr><tr><td>Software Maintenance</td><td>软件维护</td><td>软件维护包括软件维护的基础知识</td></tr><tr><td>Software Configuration Management</td><td>软件配置管理</td><td>软件配置管理涵盖 SCM 过程的管理；软件配置识别，控制，状态核算，审计；软件发布管理和交付</td></tr><tr><td>Software Engineering Management</td><td>软件工程管理</td><td>软件工程管理涵盖了启动和范围定义；软件项目计划；软件项目制定； 产品验收；审查和分析项目绩效；项目结束</td></tr><tr><td>Software Engineering Process</td><td>软件工程过程</td><td>软件工程关注软件生命周期过程的定义，实施，评估，测量，管理和改进</td></tr><tr><td>Software Engineering Models and Methods</td><td>软件工程模型与方法</td><td>软件工程模型和方法解决了涵盖多个生命周期阶段的方法</td></tr><tr><td>Software Quality</td><td>软件质量</td><td>软件质量包括软件质量的基础知识； 软件质量管理流程</td></tr><tr><td>Software Engineering Professional Practice</td><td>软件工程专业实践</td><td>软件工程专业实践涵盖专业性；道德准则；小组动态；和沟通技巧</td></tr><tr><td>Software Engineering Economics</td><td>软件工程经济学</td><td>软件工程经济学关注的是在业务环境中做出决策，以使技术决策与组织的业务目标保持一致</td></tr><tr><td>Computing Foundations</td><td>计算基础</td><td>计算基础涵盖了提供软件工程实践所需的计算背景的基础主题</td></tr><tr><td>Mathematical Foundations</td><td>数学基础</td><td>数学基础涵盖了提供软件工程实践所必需的数学背景的基础主题</td></tr><tr><td>Engineering Foundations</td><td>工程基础</td><td>工程基础涵盖了提供软件工程实践所必需的工程背景的基础主题</td></tr></tbody></table><h2 id="简单解释-CMMI-的五个级别。例如：Level-1-Initial：无序，自发生产模式。"><a href="#简单解释-CMMI-的五个级别。例如：Level-1-Initial：无序，自发生产模式。" class="headerlink" title="简单解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式。"></a>简单解释 CMMI 的五个级别。例如：Level 1 - Initial：无序，自发生产模式。</h2><ul><li><strong>Level 1 - Initial：无序，自发生产模式</strong>：软件过程是无序的，有时甚至是混乱的，对过程几乎没有定义，成功取决于个人努力。管理是反应式的</li><li><strong>Level 2 - Managed，可管理级</strong>: 建立了基本的项目管理过程来跟踪费用、进度和功能特性。制定了必要的过程纪律，能重复早先类似应用项目取得的成功经验。</li><li><strong>Level 3 - Defined，已定义级</strong>: 已将软件管理和工程两方面的过程文档化、标准化，并综合成该组织的标准软件过程。所有项目均使用经批准、剪裁的标准软件过程来开发和维护软件，软件产品的生产在整个软件过程是可见的。</li><li><strong>Level 4 - Quantitatively Managed 量化管理级</strong>: 分析对软件过程和产品质量的详细度量数据，对软件过程和产品都有定量的理解与控制。管理有一个作出结论的客观依据，管理能够在定量的范围内预测性能。</li><li><strong>Level 5 - Optimizing 优化管理级</strong>: 过程的量化反馈和先进的新思想、新技术促使过程持续不断改进</li></ul><h2 id="用自己语言简述-SWEBok-或-CMMI-（约200字）"><a href="#用自己语言简述-SWEBok-或-CMMI-（约200字）" class="headerlink" title="用自己语言简述 SWEBok 或 CMMI （约200字）"></a>用自己语言简述 SWEBok 或 CMMI （约200字）</h2><p>CMMI（能力成熟度模型集成）是用来衡量软件质量与成熟度的标准。其目的是帮助软件企业对软件工程过程进行管理和改进，增强开发与改进能力，从而能按时地、不超预算地开发出高质量的软件。CMMI为改进一个组织的各种过程提供了一个单一的集成化框架，新的集成模型框架消除了各个模型的不一致性，减少了模型间的重复，增加透明度和理解，建立了一个自动的、可扩展的框架。因而能够从总体上改进组织的质量和效率。CMMI主要关注点就是<strong>成本效益、明确重点、过程集中和灵活性</strong>四个方面</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h1 id=&quot;系统分析与设计作业一&quot;&gt;&lt;a href=&quot;#系统分析与设计作业一&quot; class=&quot;headerlink&quot; title=&quot;系统分析与设计作业一&quot;&gt;&lt;/a&gt;系统分析与设计作业一&lt;/h1&gt;&lt;h2 id=&quot;简答题&quot;&gt;&lt;a href=&quot;#简答题&quot; class=&quot;header
+        &lt;h1 id=&quot;简答题&quot;&gt;&lt;a href=&quot;#简答题&quot; class=&quot;headerlink&quot; title=&quot;简答题&quot;&gt;&lt;/a&gt;简答题&lt;/h1&gt;&lt;h2 id=&quot;软件工程的定义&quot;&gt;&lt;a href=&quot;#软件工程的定义&quot; class=&quot;headerlink&quot; title=&quot;软件工程的定义
       
     
     </summary>
     
     
-      <category term="SWAD" scheme="http://yoursite.com/tags/SWAD/"/>
+      <category term="SWSAD" scheme="http://yoursite.com/tags/SWSAD/"/>
     
   </entry>
   
