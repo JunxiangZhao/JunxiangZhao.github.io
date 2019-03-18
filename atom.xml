@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>Dyson&#39;s Blog</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-08T08:52:47.784Z</updated>
+  <updated>2019-03-18T07:48:30.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>JunxiangZhao</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>title1</title>
+    <title>SWAD1</title>
     <link href="http://yoursite.com/2019/03/08/title1/"/>
     <id>http://yoursite.com/2019/03/08/title1/</id>
     <published>2019-03-08T08:52:00.000Z</published>
-    <updated>2019-03-08T08:52:47.784Z</updated>
+    <updated>2019-03-18T07:48:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p>#Title1 </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="系统分析与设计作业一"><a href="#系统分析与设计作业一" class="headerlink" title="系统分析与设计作业一"></a>系统分析与设计作业一</h1><h2 id="简答题"><a href="#简答题" class="headerlink" title="简答题"></a>简答题</h2><h3 id="软件工程的定义"><a href="#软件工程的定义" class="headerlink" title="软件工程的定义"></a>软件工程的定义</h3><h3 id="软件危机"><a href="#软件危机" class="headerlink" title="软件危机"></a>软件危机</h3>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;#Title1 &lt;/p&gt;
-
+        &lt;h1 id=&quot;系统分析与设计作业一&quot;&gt;&lt;a href=&quot;#系统分析与设计作业一&quot; class=&quot;headerlink&quot; title=&quot;系统分析与设计作业一&quot;&gt;&lt;/a&gt;系统分析与设计作业一&lt;/h1&gt;&lt;h2 id=&quot;简答题&quot;&gt;&lt;a href=&quot;#简答题&quot; class=&quot;header
       
     
     </summary>
     
+    
+      <category term="SWAD" scheme="http://yoursite.com/tags/SWAD/"/>
     
   </entry>
   
