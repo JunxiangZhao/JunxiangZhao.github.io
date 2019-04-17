@@ -231,6 +231,195 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/12/SWSAD-3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JunxiangZhao">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dyson's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/12/SWSAD-3/" itemprop="url">系统分析与设计作业三</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-12T10:16:47+08:00">
+                2019-04-12
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="一、简答题"><a href="#一、简答题" class="headerlink" title="一、简答题"></a>一、简答题</h1><h2 id="1、简述瀑布模型、增量模型、螺旋模型（含原型方法），并分析优缺点（从项目特点、风险特征、人力资源利用角度思考）"><a href="#1、简述瀑布模型、增量模型、螺旋模型（含原型方法），并分析优缺点（从项目特点、风险特征、人力资源利用角度思考）" class="headerlink" title="1、简述瀑布模型、增量模型、螺旋模型（含原型方法），并分析优缺点（从项目特点、风险特征、人力资源利用角度思考）"></a>1、简述瀑布模型、增量模型、螺旋模型（含原型方法），并分析优缺点（从项目特点、风险特征、人力资源利用角度思考）</h2><ul>
+<li>瀑布模型是一个项目开发架构，开发过程是通过设计一系列阶段顺序展开的，从系统需求分析开始直到产品发布和维护，每个阶段都会产生循环反馈，因此，如果有信息未被覆盖或者发现了问题，那么需要返回上一个阶段并进行适当的修改，项目开发进程从一个阶段“流动”到下一个阶段，像瀑布一样。<ul>
+<li>优点：定义了软件开发基本流程与活动，开发阶段界定清晰，便于评审、审计、跟踪、管理和控制<ul>
+<li>创意阶段：描述问题，市场，关键技术等</li>
+<li>分析阶段：用户故事、领域模型、业务流程等</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>依赖问题：前期需求模糊，后期工作难以开展</li>
+<li>容错问题：在后期发现需求问题，需要返回前面的阶段进行修改，工作量难以接收</li>
+<li>资源调配问题：知识技能需求不同，人员数量要求不同</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>增量模型把待开发的软件系统模块化，将每个模块作为一个增量组件，从而分批次地分析、设计、编码和测试这些增量组件。<ul>
+<li>优点<ul>
+<li>将软件模块化，分批次提交，降低开发难度</li>
+<li>以组件为单位进行开发，降低软件开发的风险</li>
+<li>开发人员只需处理相应模块，人员分配灵活。</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>软件项目必须是可模块化的，易于拆分的，否则难以使用增量模型</li>
+<li>要求开发人员具有全局把握能力，能够对模块进行系统集成</li>
+<li>客户必须同意分阶段提交产品</li>
+<li>增量粒度难以选择</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>螺旋模型采用一种周期性的方法进行系统开发,与原型方法相同，以进化的开发方式为中心，每迭代一次软件便前进一个层次，在每个阶段内使用瀑布模型法，同时引入了其他模型不具备的风险分析。<ul>
+<li>优点<ul>
+<li>引入了明确的风险管理机制</li>
+<li>结合了原型方法和螺旋模型，</li>
+<li>客户参与到每个阶段的反馈中，保证了项目方向的正确性与可控性</li>
+<li>随着项目推进,客户始终掌握项目的最新信息 , 从而能够和管理层有效地交互</li>
+</ul>
+</li>
+<li>缺点<ul>
+<li>项目开发成本高</li>
+<li>错误的风险分析会带来更大的风险</li>
+<li>建设周期长，而软件技术发展比较快，所以经常出现软件开发完毕后，和当前的技术水平有了较大的差距，无法满足当前用户需求</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="2、简述统一过程三大特点，与面向对象的方法有什么关系？"><a href="#2、简述统一过程三大特点，与面向对象的方法有什么关系？" class="headerlink" title="2、简述统一过程三大特点，与面向对象的方法有什么关系？"></a>2、简述统一过程三大特点，与面向对象的方法有什么关系？</h2><h3 id="统一过程三大特点"><a href="#统一过程三大特点" class="headerlink" title="统一过程三大特点"></a>统一过程三大特点</h3><ol>
+<li>用例驱动(Use Case Driven):开发人员把需求分析得到的用例应用到开发的各个阶段，包括编码阶段和测试阶段。</li>
+<li>以架构为中心(Architecture Centric):软件架构提供了整个系统的蓝图，并从不同维度提供了一个结构化的开发框架。</li>
+<li>迭代和增量过程(Iterative and Evolutionary)：RUP强调采用迭代和增量的方法来开发软件，把整个项目分为多个迭代过程。</li>
+</ol>
+<h3 id="统一过程与面向对象方法的关系"><a href="#统一过程与面向对象方法的关系" class="headerlink" title="统一过程与面向对象方法的关系"></a>统一过程与面向对象方法的关系</h3><p>面向对象方法(Object-Oriented Method)是一种把面向对象的思想应用于软件开发过程中，指导开发活动的系统方法，是建立在“对象”概念基础上的方法学。对象是由数据和容许的操作组成的封装体，与客观实体有直接对应关系，一个对象类定义了具有相似性质的一组对象。</p>
+<p>统一过程不仅是一个软件开发过程，而且是一个通用的过程框架。可用于不同类型的软件、系统、各种不同的应用领域、各种不同功能级别以及不同的项目规模。统一过程使用了面向对象的方法，例如增量方法中的模块。但是统一过程更强调一种开发过程框架，形成软件开发过程的方法论。</p>
+<h2 id="3、简述统一过程四个阶段的划分准则是什么？每个阶段关键的里程碑是什么？"><a href="#3、简述统一过程四个阶段的划分准则是什么？每个阶段关键的里程碑是什么？" class="headerlink" title="3、简述统一过程四个阶段的划分准则是什么？每个阶段关键的里程碑是什么？"></a>3、简述统一过程四个阶段的划分准则是什么？每个阶段关键的里程碑是什么？</h2><h3 id="四个阶段的划分准则"><a href="#四个阶段的划分准则" class="headerlink" title="四个阶段的划分准则"></a>四个阶段的划分准则</h3><ol>
+<li>初始阶段</li>
+<li>细分阶段</li>
+<li>构造阶段</li>
+<li>交付阶段</li>
+</ol>
+<p>划分准则：达到里程碑的要求即可划分为一个阶段。统一过程每个阶段都有对应的要求和评估方法，即里程碑，如果达到了这些要求，则可以进入下一个阶段。</p>
+<h3 id="里程碑"><a href="#里程碑" class="headerlink" title="里程碑"></a>里程碑</h3><ol>
+<li>初始阶段：确定项目的软件范围和边界条件,识别出系统的关键用例</li>
+<li>细分阶段：需求基本明确，架构得到验证，定出一个实用的架构</li>
+<li>构造阶段：初始功能运作正常，产品特性基本满足</li>
+<li>交付阶段：产品交付，提交一个可运行的软件产品和用户手册等文档。</li>
+</ol>
+<h2 id="4、软件企业为什么能按固定节奏生产、固定周期发布软件产品？它给企业项目管理带来哪些好处？"><a href="#4、软件企业为什么能按固定节奏生产、固定周期发布软件产品？它给企业项目管理带来哪些好处？" class="headerlink" title="4、软件企业为什么能按固定节奏生产、固定周期发布软件产品？它给企业项目管理带来哪些好处？"></a>4、软件企业为什么能按固定节奏生产、固定周期发布软件产品？它给企业项目管理带来哪些好处？</h2><p>软件企业使用统一过程，明确每个阶段的里程碑，可以在每次迭代产生一个可交付的产品。同时合理利用软件产品范围的弹性，合理规划范围(20%的业务决定80%的满意度)，使得软件生产按固定节奏运行，固定迭代周期、固定开发周期、固定升级周期。因此软件企业能按固定节奏生产、固定周期发布软件产品。</p>
+<p>使用统一过程对软件开发进行管理，保证了企业产品发布的周期性和固定节奏，方便了成本的控制，有效地规避了风险，把复杂的系统划分为简单的系统，更有效地应对需求变更。</p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/03/22/SWSAD-2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -781,7 +970,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
