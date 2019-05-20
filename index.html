@@ -231,6 +231,304 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/20/SWSAD-4/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="JunxiangZhao">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Dyson's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/20/SWSAD-4/" itemprop="url">系统分析与设计作业四</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-20T17:02:05+08:00">
+                2019-04-20
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="1、简答题"><a href="#1、简答题" class="headerlink" title="1、简答题"></a>1、简答题</h1><h2 id="用例的概念"><a href="#用例的概念" class="headerlink" title="用例的概念"></a>用例的概念</h2><p>用例，是软件工程或系统工程中对系统如何反应外界请求的描述，是一种通过用户的使用场景来获取需求的技术。 每个用例提供了一个或多个场景，该场景说明了系统是如何和最终用户或其它系统互动，也就是谁可以用系统做什么，从而获得一个明确的业务目标。</p>
+<h2 id="用例和场景的关系？什么是主场景或happy-path？"><a href="#用例和场景的关系？什么是主场景或happy-path？" class="headerlink" title="用例和场景的关系？什么是主场景或happy path？"></a>用例和场景的关系？什么是主场景或happy path？</h2><ul>
+<li>场景是参与者与系统之间的一系列特定活动和会话，也称为用例实例，它是使用某一系统的特定故事，或者用例的某条路径；用例是场景的集合，包括主场景以及零个或多个可选场景。</li>
+<li>主场景指最常用的系统会话，直接地实现用户目标的故事，通常是成功的场景。</li>
+</ul>
+<h2 id="用例有哪些形式？"><a href="#用例有哪些形式？" class="headerlink" title="用例有哪些形式？"></a>用例有哪些形式？</h2><ul>
+<li>Brief：使用一个简短的段落概括用例，通常只概括主场景的内容。</li>
+<li>Casual：使用非正式的段落格式，通常使用几个段落来描述多个不同的场景。</li>
+<li>Fully：所有的步骤和视图，以及系统中可能出现的所有变化都被详细记录，同时附有额外的章节来说明前提条件、成功保证等内容。</li>
+</ul>
+<h2 id="对于复杂业务，为什么编制完整用例非常难？"><a href="#对于复杂业务，为什么编制完整用例非常难？" class="headerlink" title="对于复杂业务，为什么编制完整用例非常难？"></a>对于复杂业务，为什么编制完整用例非常难？</h2><p>因为对于复杂业务，涉及的参与者和场景很多，可能出现的变化也很多，编制用例只能覆盖有限的部分场景，对于各种不同的变化情况很难完全覆盖，所以很难编制出完整的用例。</p>
+<h2 id="什么是用例图？"><a href="#什么是用例图？" class="headerlink" title="什么是用例图？"></a>什么是用例图？</h2><p>用例图（use case diagram）是用户与系统交互的最简表示形式，展现了用户和与他相关的用例之间的关系。通过用例图，人们可以获知系统不同种类的用户和用例。用例图也经常和其他图表配合使用。</p>
+<h2 id="用例图的基本符号与元素？"><a href="#用例图的基本符号与元素？" class="headerlink" title="用例图的基本符号与元素？"></a>用例图的基本符号与元素？</h2><ul>
+<li>参与者：系统的主要参与者，指与系统交互的角色。可以是人、计算机系统、组织等。用以下符号表示：</li>
+</ul>
+<p><img src="/images/actor.PNG" alt="actor"></p>
+<ul>
+<li>用例:用例是描述参与者为了某个目的使用系统的一系列相关成功和失败场景的集合。使用如下符号表示：</li>
+</ul>
+<p><img src="/images/usecase.PNG" alt="usecase"></p>
+<ul>
+<li>系统边界:系统边界是用于表示正在建模的系统的边界。用如下符号表示：</li>
+</ul>
+<p><img src="/images/system.PNG" alt="system"></p>
+<ul>
+<li>关系:表示参与者与系统之间的交互或者用例之间的关联关系,用如下符号表示：</li>
+</ul>
+<p><img src="/images/relation.PNG" alt="relation"></p>
+<h2 id="用例图的画法与步骤"><a href="#用例图的画法与步骤" class="headerlink" title="用例图的画法与步骤"></a>用例图的画法与步骤</h2><ul>
+<li>确定研讨的系统<ul>
+<li>使用用例图 System框 表示一个待研究的系统</li>
+<li>正确命名系统或子系统，例如 Reserve Hotel。</li>
+<li>千万不要将研究的系统的名称起的太泛，如“网上商店”。正确的姿势是“网上书店”，以避免业务空泛问题</li>
+</ul>
+</li>
+<li>识别Actor：<ul>
+<li>识别使用系统的主要参与者（primary actors）/角色(roles)</li>
+<li>识别系统依赖的外部系统</li>
+</ul>
+</li>
+<li>识别用例（服务）<ul>
+<li>识别用户级别用例（user goal level）<ul>
+<li>以主要参与者目标驱动</li>
+<li>收集主要参与者的业务事件</li>
+<li>必须满足以下准则：boss tese, EBP test, Size Test</li>
+<li>manage 用例。特指管理一些事物的 CRUD 操作，例如管理文件、管理用户等</li>
+</ul>
+</li>
+<li>识别子功能级别的用例（sub function level）<ul>
+<li>子用例特征</li>
+<li>正确使用用例与子用例之间的关系</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>建立 Actor 和 Use Cases 之间的关联<ul>
+<li>请使用 无方向连线，表示两间之间是双向交互的协议</li>
+</ul>
+</li>
+</ul>
+<h2 id="用例图给利益相关人与开发者的价值有哪些？"><a href="#用例图给利益相关人与开发者的价值有哪些？" class="headerlink" title="用例图给利益相关人与开发者的价值有哪些？"></a>用例图给利益相关人与开发者的价值有哪些？</h2><ul>
+<li>使用用例图使利益相关人能更形象准确地传达对需求的认识，清晰地表达其想法</li>
+<li>开发者可以通过用例图清楚了解到客户的需求，为开发过程提供更清晰的思路，提高双方沟通的效率</li>
+</ul>
+<h1 id="2、建模练习题（用例模型）"><a href="#2、建模练习题（用例模型）" class="headerlink" title="2、建模练习题（用例模型）"></a>2、建模练习题（用例模型）</h1><h2 id="选择2-3个你熟悉的类似业务的在线服务系统（或移动-APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。并满足以下要求："><a href="#选择2-3个你熟悉的类似业务的在线服务系统（或移动-APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。并满足以下要求：" class="headerlink" title="选择2-3个你熟悉的类似业务的在线服务系统（或移动 APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。并满足以下要求："></a>选择2-3个你熟悉的类似业务的在线服务系统（或移动 APP），如定旅馆（携程、去哪儿等）、定电影票、背单词APP等，分别绘制它们用例图。并满足以下要求：</h2><ul>
+<li>请使用用户的视角，描述用户目标或系统提供的服务</li>
+<li>粒度达到子用例级别，并用 include 和 exclude 关联它们</li>
+<li>请用色彩标注出你认为创新（区别于竞争对手的）用例或子用例</li>
+<li>尽可能识别外部系统和服务</li>
+</ul>
+<h3 id="猫眼APP"><a href="#猫眼APP" class="headerlink" title="猫眼APP"></a>猫眼APP</h3><p><img src="/images/CatEye.png" alt="CatEye"></p>
+<h3 id="淘票票APP"><a href="#淘票票APP" class="headerlink" title="淘票票APP"></a>淘票票APP</h3><p><img src="/images/TaoTicket.png" alt="TaoTicket"></p>
+<h2 id="然后，回答下列问题："><a href="#然后，回答下列问题：" class="headerlink" title="然后，回答下列问题："></a>然后，回答下列问题：</h2><h3 id="1-为什么相似系统的用例图是相似的？"><a href="#1-为什么相似系统的用例图是相似的？" class="headerlink" title="1.为什么相似系统的用例图是相似的？"></a>1.为什么相似系统的用例图是相似的？</h3><p>因为相似系统的功能、用户都是很类似的，从而确定的系统边界、参与者和用例场景都是很类似的，进而导致用例图很相似。</p>
+<h3 id="2-如果是定旅馆业务，请对比-Asg-RH-用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术"><a href="#2-如果是定旅馆业务，请对比-Asg-RH-用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术" class="headerlink" title="2.如果是定旅馆业务，请对比 Asg_RH 用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术"></a>2.如果是定旅馆业务，请对比 Asg_RH 用例图，简述如何利用不同时代、不同地区产品的用例图，展现、突出创新业务和技术</h3><p>对比Asg_RH用例图，在现在这个时代，订旅馆时可以考虑的因素更多了，除了距离、价格等因素外，可以把外观、舒适度、用户评价、周边便利条件等作为排序功能的指标加入到子用例中，为用户提供更多的考量标准，提高客户满意度。在支付手段上，随着移动支付的普及，当代的旅馆预定业务应支持现金、银行卡、微信支付宝等多种方式，为用户提供更多的便利性，提高软件竞争力。</p>
+<h3 id="3-如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用"><a href="#3-如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用" class="headerlink" title="3.如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用"></a>3.如何利用用例图定位创新思路（业务创新、或技术创新、或商业模式创新）在系统中的作用</h3><p>因为用例图表现了用户在达成某种目的需要的必经之路，因而可以在图中发现这条必经之路上可以增加商机的地方。比如在选择场次和支付之前，猫眼APP和淘票票分别将小吃和饮料的优惠套餐加入界面，简介增加影院的收入渠道，提高软件竞争力。</p>
+<p>另外用例图较为简洁地提出了用户目标（因为每个用例的划分就是对于实现每个大目标以及小目标的划分），因而已经实现的用户目标清晰可见，更方便联想用户的潜在需求。</p>
+<h3 id="4-请使用-SCRUM-方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表"><a href="#4-请使用-SCRUM-方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表" class="headerlink" title="4.请使用 SCRUM 方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表"></a>4.请使用 SCRUM 方法，选择一个用例图，编制某定旅馆开发的需求（backlog）开发计划表</h3><p><img src="/images/ReserveHotel.png" alt="Hotel"></p>
+<p>以上述用例图为例，编制backlog如下：</p>
+<table>
+<thead>
+<tr>
+<th>Id</th>
+<th>Name</th>
+<th>Imp</th>
+<th>Est</th>
+<th>How to Demo</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>login</td>
+<td>5</td>
+<td>3</td>
+<td>login with Id number and phone number</td>
+<td>verified by face recognition</td>
+</tr>
+<tr>
+<td>2</td>
+<td>find hotel</td>
+<td>10</td>
+<td>8</td>
+<td>can be found by map or sort by distance</td>
+<td>geo API</td>
+</tr>
+<tr>
+<td>3</td>
+<td>make reservation</td>
+<td>10</td>
+<td>6</td>
+<td>choose hotel and than select a room</td>
+<td>send e-mails to comfirm</td>
+</tr>
+<tr>
+<td>4</td>
+<td>pay</td>
+<td>8</td>
+<td>3</td>
+<td>pay by card or other methods</td>
+<td>stmp API to send informing e-mail</td>
+</tr>
+<tr>
+<td>5</td>
+<td>manage basket</td>
+<td>3</td>
+<td>8</td>
+<td>allow the travelers to collect hotels interested in</td>
+</tr>
+</tbody>
+</table>
+<h3 id="5-根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算"><a href="#5-根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算" class="headerlink" title="5.根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算"></a>5.根据任务4，参考使用用例点估算软件成本，给出项目用例点的估算</h3><table>
+<thead>
+<tr>
+<th>用例</th>
+<th>#业务</th>
+<th>#计算</th>
+<th>原因</th>
+<th>UC权重</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>login</td>
+<td>2</td>
+<td>5</td>
+<td>face recognition</td>
+<td>5</td>
+</tr>
+<tr>
+<td>find hotel</td>
+<td>5</td>
+<td>4</td>
+<td>framework</td>
+<td>10</td>
+</tr>
+<tr>
+<td>make reservation</td>
+<td>4</td>
+<td>6</td>
+<td></td>
+<td>10</td>
+</tr>
+<tr>
+<td>pay</td>
+<td>3</td>
+<td>4</td>
+<td>invoke API</td>
+<td>5</td>
+</tr>
+<tr>
+<td>manage basket</td>
+<td>1</td>
+<td>8</td>
+<td></td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/12/SWSAD-3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -970,7 +1268,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
