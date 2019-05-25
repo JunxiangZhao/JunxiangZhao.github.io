@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-20T02:13:11.755Z</updated>
+  <updated>2019-05-25T01:20:39.466Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>系统分析与设计作业五</title>
+    <link href="http://yoursite.com/2019/05/22/SWSAD-5/"/>
+    <id>http://yoursite.com/2019/05/22/SWSAD-5/</id>
+    <published>2019-05-22T01:13:28.000Z</published>
+    <updated>2019-05-25T01:20:39.466Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="根据订旅馆建模文档，Asg-RH-pdf："><a href="#根据订旅馆建模文档，Asg-RH-pdf：" class="headerlink" title="根据订旅馆建模文档，Asg-RH.pdf："></a>根据订旅馆建模文档，Asg-RH.pdf：</h2><h3 id="绘制用例图模型（到子用例）"><a href="#绘制用例图模型（到子用例）" class="headerlink" title="绘制用例图模型（到子用例）"></a>绘制用例图模型（到子用例）</h3><p><img src="/images/ReserveHotel.png" alt="用例图-订旅馆"></p><h3 id="给出-make-reservation-用例的活动图"><a href="#给出-make-reservation-用例的活动图" class="headerlink" title="给出 make reservation 用例的活动图"></a>给出 make reservation 用例的活动图</h3><p><img src="/images/ReservationActivity.png" alt="活动图-订旅馆"></p><h2 id="根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景"><a href="#根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景" class="headerlink" title="根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景"></a>根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景</h2><h3 id="分别用多泳道图建模三个场景的业务过程"><a href="#分别用多泳道图建模三个场景的业务过程" class="headerlink" title="分别用多泳道图建模三个场景的业务过程"></a>分别用多泳道图建模三个场景的业务过程</h3><ul><li>业务一</li></ul><p><img src="/images/swim1.png" alt="泳道图1"></p><ul><li>业务二</li></ul><p><img src="/images/swim2.png" alt="泳道图2"></p><ul><li>业务三</li></ul><p><img src="/images/swim3.png" alt="泳道图3"></p><h3 id="根据上述流程，给出快递柜系统最终的用例图模型"><a href="#根据上述流程，给出快递柜系统最终的用例图模型" class="headerlink" title="根据上述流程，给出快递柜系统最终的用例图模型"></a>根据上述流程，给出快递柜系统最终的用例图模型</h3><ul><li>用正常色彩表示第一个业务流程反映的用例</li><li>用绿色背景表述第二个业务场景添加或修改的用例，以及支持 Actor</li><li>用黄色背景表述第三个业务场景添加或修改的用例，以及支持 Actor</li></ul><p><img src="/images/UseCase_closet.png" alt="用例图-快递柜系统"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;根据订旅馆建模文档，Asg-RH-pdf：&quot;&gt;&lt;a href=&quot;#根据订旅馆建模文档，Asg-RH-pdf：&quot; class=&quot;headerlink&quot; title=&quot;根据订旅馆建模文档，Asg-RH.pdf：&quot;&gt;&lt;/a&gt;根据订旅馆建模文档，Asg-RH.pdf：&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="SWSAD" scheme="http://yoursite.com/tags/SWSAD/"/>
+    
+  </entry>
   
   <entry>
     <title>系统分析与设计作业四</title>
