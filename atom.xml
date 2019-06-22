@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-25T01:20:39.466Z</updated>
+  <updated>2019-06-22T02:19:50.383Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>系统分析与设计作业六</title>
+    <link href="http://yoursite.com/2019/06/22/SWSAD-6/"/>
+    <id>http://yoursite.com/2019/06/22/SWSAD-6/</id>
+    <published>2019-06-22T01:21:38.000Z</published>
+    <updated>2019-06-22T02:19:50.383Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="1、使用类图，分别对-Asg-RH-文档中-Make-Reservation-用例以及-Payment-用例开展领域建模。然后，根据上述模型，给出建议的数据表以及主要字段，特别是主键和外键"><a href="#1、使用类图，分别对-Asg-RH-文档中-Make-Reservation-用例以及-Payment-用例开展领域建模。然后，根据上述模型，给出建议的数据表以及主要字段，特别是主键和外键" class="headerlink" title="1、使用类图，分别对 Asg_RH 文档中 Make Reservation 用例以及 Payment 用例开展领域建模。然后，根据上述模型，给出建议的数据表以及主要字段，特别是主键和外键"></a>1、使用类图，分别对 Asg_RH 文档中 Make Reservation 用例以及 Payment 用例开展领域建模。然后，根据上述模型，给出建议的数据表以及主要字段，特别是主键和外键</h1><ul><li>注意事项：<ul><li>对象必须是名词、特别是技术名词、报表、描述类的处理；</li><li>关联必须有多重性、部分有名称与导航方向</li><li>属性要注意计算字段</li></ul></li><li>数据建模，为了简化描述仅需要给出表清单，例如：<ul><li>Hotel（ID/Key，Name，LoctionID/Fkey，Address…..）</li></ul></li></ul><h2 id="Make-Reservation"><a href="#Make-Reservation" class="headerlink" title="Make Reservation"></a>Make Reservation</h2><p><img src="/images/hotel_domain.jpg" alt="hotel_domain"></p><ul><li>Hotel(Id, name, address, star_rating, favorites, info)</li><li>Location(Id, name)</li><li>Customer(Id, name, email)</li><li>Room(Type, date, isAvailable, price, available_num, reserved_num)</li></ul><h2 id="Payment"><a href="#Payment" class="headerlink" title="Payment"></a>Payment</h2><p><img src="/images/payment_domain.jpg" alt="payment_domain"></p><ul><li>Payment(Id, date, time)</li><li>CreditCard(Id, type, number, security_num, expiry_date)</li><li>Customer(Id, name, emailAddress)</li><li>CardHolder(Id, titel, firstName, lastName, address1, address2, city, county/state, postcode, daytimeTelephone, eveningTelephone)</li></ul><h1 id="2、使用-UML-State-Model，对每个订单对象生命周期建模"><a href="#2、使用-UML-State-Model，对每个订单对象生命周期建模" class="headerlink" title="2、使用 UML State Model，对每个订单对象生命周期建模"></a>2、使用 UML State Model，对每个订单对象生命周期建模</h1><ul><li>建模对象： 参考 Asg_RH 文档， 对 Reservation/Order 对象建模。</li><li>建模要求： 参考练习不能提供足够信息帮助你对订单对象建模，请参考现在 定旅馆 的旅游网站，尽可能分析围绕订单发生的各种情况，直到订单通过销售事件（柜台销售）结束订单。</li></ul><p><img src="/images/reservation_state.jpg" alt="reservation_state"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;1、使用类图，分别对-Asg-RH-文档中-Make-Reservation-用例以及-Payment-用例开展领域建模。然后，根据上述模型，给出建议的数据表以及主要字段，特别是主键和外键&quot;&gt;&lt;a href=&quot;#1、使用类图，分别对-Asg-RH-文档中-Make
+      
+    
+    </summary>
+    
+    
+      <category term="SWSAD" scheme="http://yoursite.com/tags/SWSAD/"/>
+    
+  </entry>
+  
+  <entry>
     <title>系统分析与设计作业五</title>
     <link href="http://yoursite.com/2019/05/22/SWSAD-5/"/>
     <id>http://yoursite.com/2019/05/22/SWSAD-5/</id>
     <published>2019-05-22T01:13:28.000Z</published>
-    <updated>2019-05-25T01:20:39.466Z</updated>
+    <updated>2019-05-25T01:24:41.823Z</updated>
     
     <content type="html"><![CDATA[<h2 id="根据订旅馆建模文档，Asg-RH-pdf："><a href="#根据订旅馆建模文档，Asg-RH-pdf：" class="headerlink" title="根据订旅馆建模文档，Asg-RH.pdf："></a>根据订旅馆建模文档，Asg-RH.pdf：</h2><h3 id="绘制用例图模型（到子用例）"><a href="#绘制用例图模型（到子用例）" class="headerlink" title="绘制用例图模型（到子用例）"></a>绘制用例图模型（到子用例）</h3><p><img src="/images/ReserveHotel.png" alt="用例图-订旅馆"></p><h3 id="给出-make-reservation-用例的活动图"><a href="#给出-make-reservation-用例的活动图" class="headerlink" title="给出 make reservation 用例的活动图"></a>给出 make reservation 用例的活动图</h3><p><img src="/images/ReservationActivity.png" alt="活动图-订旅馆"></p><h2 id="根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景"><a href="#根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景" class="headerlink" title="根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景"></a>根据课程练习“投递员使用投递箱给收件人快递包裹”的业务场景</h2><h3 id="分别用多泳道图建模三个场景的业务过程"><a href="#分别用多泳道图建模三个场景的业务过程" class="headerlink" title="分别用多泳道图建模三个场景的业务过程"></a>分别用多泳道图建模三个场景的业务过程</h3><ul><li>业务一</li></ul><p><img src="/images/swim1.png" alt="泳道图1"></p><ul><li>业务二</li></ul><p><img src="/images/swim2.png" alt="泳道图2"></p><ul><li>业务三</li></ul><p><img src="/images/swim3.png" alt="泳道图3"></p><h3 id="根据上述流程，给出快递柜系统最终的用例图模型"><a href="#根据上述流程，给出快递柜系统最终的用例图模型" class="headerlink" title="根据上述流程，给出快递柜系统最终的用例图模型"></a>根据上述流程，给出快递柜系统最终的用例图模型</h3><ul><li>用正常色彩表示第一个业务流程反映的用例</li><li>用绿色背景表述第二个业务场景添加或修改的用例，以及支持 Actor</li><li>用黄色背景表述第三个业务场景添加或修改的用例，以及支持 Actor</li></ul><p><img src="/images/UseCase_closet.png" alt="用例图-快递柜系统"></p>]]></content>
     
